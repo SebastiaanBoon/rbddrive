@@ -1,0 +1,19 @@
+*{box-sizing:border-box;margin:0}
+:root{--n:#0c1b33;--y:#ffc93c;--w:#f4f6fa}
+body{font-family:'Barlow',Arial,sans-serif;background:var(--n);color:var(--w);font-size:19px;line-height:1.6;min-height:100vh;display:flex;flex-direction:column}
+main{flex:1}
+.wrap{max-width:900px;margin:0 auto;padding:0 22px}
+.top{padding:26px 0;border-bottom:3px dashed rgba(255,201,60,.55)}
+.logo{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:34px;letter-spacing:.04em}
+.logo b{color:var(--y)}
+.hero{padding:84px 0 56px}
+.hero h1{font-family:'Barlow Condensed',sans-serif;font-weight:700;text-transform:uppercase;font-size:clamp(52px,12vw,128px);line-height:.92}
+.hero h1 span{color:var(--y);display:block}
+.hero p{max-width:28em;margin:26px 0 30px;font-size:21px}
+.btn{display:inline-block;background:var(--y);color:var(--n);font-weight:700;padding:15px 30px;text-decoration:none;border-radius:4px}
+.card{border:2px solid rgba(255,201,60,.55);border-radius:6px;padding:28px;margin:10px 0 70px;display:grid;grid-template-columns:auto 1fr;gap:8px 28px}
+.card dt{color:var(--y);font-weight:700}
+.card a{color:var(--w)}
+footer{text-align:center;font-size:13.5px;padding:20px;color:#8fa0bd}
+footer a{color:#8fa0bd}
+@media(max-width:600px){.hero{padding:48px 0 36px}.card{grid-template-columns:1fr;gap:2px}.card dd{margin-bottom:12px}}
